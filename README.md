@@ -27,14 +27,14 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshots/active-ss.png)
-![](./screenshots/mobile-ss.png)
 ![](./screenshots/desktop-ss.png)
+![](./screenshots/mobile-ss.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Repo](https://github.com/bobo-m/results-summary--Frontend-Mentor)
+- Live Site URL: [Live Site](https://bobo-m.github.io/results-summary--Frontend-Mentor/)
 
 ## My process
 
