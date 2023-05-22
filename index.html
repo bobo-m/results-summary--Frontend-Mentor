@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body>
+  <div class="container">
+    <div class="score">
+      <h1 class="result">Your Result</h1>
+      <div class="marks">
+        <span>76<br></span> 
+        <p>of 100</p>    
+      </div>
+      <div class="great">
+        <h1>Great</h1>
+      <p>
+        You scored higher than 65% of the people who have taken these tests.
+      </p>
+      </div>
+    </div>
+  
+    <div class="summary">
+      <h1>Summary</h1>
+      <table>
+        <tr>
+          <td style="background-color:hsla(0, 100%, 67%,0.1);">
+            <img src="assets/images/icon-reaction.svg">
+            <span class="topic" style="color: hsl(0, 100%, 67%);"> Reaction</span> 
+            <span class="data">80 <span style="color:rgba(0, 0, 0, 0.308);"> / 100</span></span> 
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color:hsla(39, 100%, 56%,0.1);">
+            <img src="assets/images/icon-memory.svg" >
+            <span class="topic" style="color:hsl(39, 100%, 56%); ">Memory</span> 
+            <span class="data">92 <span style="color:rgba(0, 0, 0, 0.308);"> / 100</span></span>
+            </td>
+        </tr>
+        <tr>
+          <td style="background-color:hsla(166, 100%, 37%, 0.10);">
+            <img src="assets/images/icon-verbal.svg">
+            <span class="topic" style="color:hsl(166, 100%, 37%);">Verbal</span> 
+            <span class="data">61 <span style="color:rgba(0, 0, 0, 0.308);"> / 100</span></span>
+            </td>
+        </tr>
+        <tr>
+            <td style="background-color:hsla(234, 85%, 45%, 0.1)">
+            <img src="assets/images/icon-visual.svg"> 
+            <span class="topic" style="color:hsl(234, 85%, 45%);"> Visual</span> 
+            <span class="data">72<span style="color:rgba(0, 0, 0, 0.308);"> / 100</span></span>
+            </td>
+        </tr>
+      </table>
+      <button type="submit">Continue</button>
+    </div>
+  </div>
+</body>
+</html>
